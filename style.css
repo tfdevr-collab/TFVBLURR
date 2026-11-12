@@ -25,3 +25,7 @@
 .black-archive-page .hero-stamp { border-color:#79bfe0 !important; }
 
 .footer-meta a{color:#777;text-decoration:none;transition:color .2s}.footer-meta a:hover{color:#65b8e3}
+
+/* Header Instagram link */
+.header-instagram{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;color:var(--ink);text-decoration:none;transition:color .2s,transform .2s;flex:0 0 auto}.header-instagram svg{display:block;width:23px;height:23px}.header-instagram:hover{color:#65b8e3;transform:translateY(-2px)}
+@media(max-width:760px){.header-instagram{margin-left:auto;margin-right:18px;width:30px;height:30px}.header-instagram svg{width:22px;height:22px}.nav-toggle{margin-left:0}}
