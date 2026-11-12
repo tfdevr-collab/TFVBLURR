@@ -23,3 +23,5 @@
 .black-archive-page .crossed,
 .black-archive-page .period { color:#79bfe0 !important; }
 .black-archive-page .hero-stamp { border-color:#79bfe0 !important; }
+
+.footer-meta a{color:#777;text-decoration:none;transition:color .2s}.footer-meta a:hover{color:#65b8e3}
