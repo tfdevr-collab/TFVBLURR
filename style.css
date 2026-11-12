@@ -29,3 +29,15 @@
 /* Header Instagram link */
 .header-instagram{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;color:var(--ink);text-decoration:none;transition:color .2s,transform .2s;flex:0 0 auto}.header-instagram svg{display:block;width:23px;height:23px}.header-instagram:hover{color:#65b8e3;transform:translateY(-2px)}
 @media(max-width:760px){.header-instagram{margin-left:auto;margin-right:18px;width:30px;height:30px}.header-instagram svg{width:22px;height:22px}.nav-toggle{margin-left:0}}
+
+/* Header Instagram link placement */
+.header .navigation .header-instagram{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;color:var(--ink);text-decoration:none;flex:0 0 24px;margin:0 -8px}
+.header .navigation .header-instagram svg{display:block;width:21px;height:21px}
+.header .navigation .header-instagram:hover{color:#65b8e3}
+@media(max-width:760px){
+  .header{position:relative}
+  .header>.identity{margin-right:auto}
+  .header>.nav-toggle{margin-left:0}
+  .header .navigation .header-instagram{position:absolute;right:105px;top:50%;transform:translateY(-50%);margin:0;width:28px;height:28px}
+  .header .navigation .header-instagram svg{width:23px;height:23px}
+}
