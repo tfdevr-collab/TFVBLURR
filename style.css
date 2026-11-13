@@ -41,3 +41,67 @@
   .header .navigation .header-instagram{position:absolute;right:105px;top:50%;transform:translateY(-50%);margin:0;width:28px;height:28px}
   .header .navigation .header-instagram svg{width:23px;height:23px}
 }
+
+
+/* Mobile viewport containment — desktop styles remain unchanged */
+@media (max-width: 760px) {
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  body,
+  main,
+  .header,
+  .footer,
+  .hero,
+  .statement,
+  .archive,
+  .blackout,
+  .side-project,
+  .closing {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: clamp(54px, 14vw, 108px);
+    overflow-wrap: normal;
+  }
+
+  .statement h2 {
+    font-size: clamp(54px, 12.5vw, 92px);
+  }
+
+  .archive-heading h2 {
+    font-size: clamp(58px, 12.5vw, 96px);
+  }
+
+  .blackout p {
+    font-size: clamp(78px, 17vw, 138px);
+  }
+
+  .skit-copy h2 {
+    font-size: clamp(56px, 12vw, 92px);
+  }
+
+  .closing h2 {
+    font-size: clamp(78px, 16vw, 132px);
+  }
+
+  .hero-topline,
+  .section-label,
+  .archive-end,
+  .blackout-foot {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .gallery,
+  .ticker,
+  .ticker-track {
+    max-width: 100%;
+  }
+}
